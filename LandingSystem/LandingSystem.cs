@@ -11,9 +11,9 @@ namespace LandingSystem
         private const int LandingPlatformTopLeft = 5;
 
         private const string ExceptionMessage = "This landing is wrong !!!";
-        private const string CLASH = "clash";
-        public const string OKFORLANDING = "ok for landing";
-        public const string OUTOFPLATFORM = "out of platform";
+        private const string Clash = "clash";
+        private const string Okforlanding = "ok for landing";
+        private const string Outofplatform = "out of platform";
 
         private Square LandingArea { get; set; }
         private Square LandingPlatform { get; set; }
@@ -38,11 +38,11 @@ namespace LandingSystem
             string result;
             if (PreviousRocketLandingPosition != null &&
                 ArrangeService.IsArrangeSquare(PreviousRocketLandingPosition, arrangeLanding))
-                result = CLASH;
+                result = Clash;
             else if (ArrangeService.IsArrangeSquare(LandingPlatform, arrangeLanding))
-                result = OKFORLANDING;
+                result = Okforlanding;
             else
-                result = OUTOFPLATFORM;
+                result = Outofplatform;
 
             PreviousRocketLandingPosition = ArrangeService.MakeSafetySquare(arrangeLanding);
             return result;

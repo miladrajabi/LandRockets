@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4CAA4583
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingSystem", "LandingSystem\LandingSystem.csproj", "{79E9C37E-6EC5-4A3C-A399-FC642AA56640}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandingRocketTest", "LandingRocketTest\LandingRocketTest.csproj", "{2E40AA68-DE87-4793-9F03-9AE61652CE34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{79E9C37E-6EC5-4A3C-A399-FC642AA56640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79E9C37E-6EC5-4A3C-A399-FC642AA56640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79E9C37E-6EC5-4A3C-A399-FC642AA56640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E40AA68-DE87-4793-9F03-9AE61652CE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E40AA68-DE87-4793-9F03-9AE61652CE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E40AA68-DE87-4793-9F03-9AE61652CE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E40AA68-DE87-4793-9F03-9AE61652CE34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79E9C37E-6EC5-4A3C-A399-FC642AA56640} = {9FF91B7A-487D-4B24-BCB4-4F363CF8EA6C}
+		{2E40AA68-DE87-4793-9F03-9AE61652CE34} = {4CAA4583-6FC1-488E-BC29-B304CB9CF4DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FB2AECA-5ECA-4BBD-A261-7FF42A66307A}
